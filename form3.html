@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario 3</title>
+  <link rel="stylesheet" href="/styles_03.css">
+</head>
+<body>
+  <section class="container">
+    <form class="box">
+      <span></span>
+      <div class="content">
+        <label for="fname">Slider:</label>
+      <input type="range" min="1" max="100" value="50" class="slider" id="myRange"><br><br>
+      <label for="fname">Numeric Spinner:</label>
+      <input type="number" min="0" max="100" step="2" value="6" size="6"><br><br>
+      <label for="start">Date Picker:</label>
+      <input type="date" id="start" name="trip-start"  value="2018-07-22"   min="2018-01-01" max="2018-12-31"><br><br>
+      <label for="muestrario">Color Picker:</label>
+      <input type="color" value="#ff0000" id="muestrario"><br><br>
+      <label for="uname">Text Field placeholder: </label>
+      <input type="text" id="uname" name="name"  placeholder="Inserte su texto"><br><br>
+      <label for="url">Ingrese URL:</label>
+      <input type="url" name="url" id="url" placeholder="https://ejemplo.com" pattern="https://.*" size="30"  required><br><br>
+      <label for="email">Ingrese email:</label>
+      <input type="email" id="email" pattern="ejemplo@globex.com" size="30" required placeholder="ejemplo@globex.com"><br><br>
+      <input type="submit" value="Enviar Form"><br><br>
+
+      <a href="/formularios.html/taller_01.html">Volver pagina principal</a>
+    </form>
+      </div>
+      
+  </section>
+  
+</body>
+</html>
